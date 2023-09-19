@@ -586,11 +586,16 @@ li {
     font-weight: 400;
 }
 
-
+.m-img{
+    z-index: 2;
+    position: relative;
+    top: 60px;
+}
 #mid-text {
     background-color: #334756;
     width: 100%;
     height: fit-content;
+    z-index: 1;
 }
 #mid-text h3,
 h6 {
